@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html , body {
+    background-color:white;
+    font-family: Roboto, sans-serif ;
+}
+
+/* title */
+.title{
+    color: grey;
+    padding: 10px 25px;
+}
+
+/* shopping cart */
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.items .item1{  
+    padding: 30px 30px; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items .item2{  
+    padding: 30px 30px; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items .item3{  
+    padding: 30px 30px; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Like and Delete buttons */
+.items .LDbuttons{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.items .LDbuttons .deletebtn{
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.items .LDbuttons .likebtn{
+    border: none;
+    background-color: transparent;
+    font-size: 28px;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.liked{
+    color: crimson;
+}
+
+/* Image */
+.items .image{
+    width: 175px;
+    height: 125px;
+    background-size: contain;
+    border-radius: 10px;
+}
+
+/* description */
+.items .description{
+    font-weight: 600;
+}
+
+/* Plus , Minus and input buttons */
+.items .PMbuttons .plusbtn{
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    background-size: contain;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: lightgrey;
+    padding: 0px 8px;
+}
+
+.items .PMbuttons .minusbtn{
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    background-size: contain;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: lightgrey;
+    padding: 0px 11px;
+}
+
+.items .PMbuttons .changebtn{
+    width: 15px;
+    height: 25px;
+    font-size: 23px;
+    align-items: center;
+    border: none;
+    border-radius: 6px;
+    background-position: center;
+}
+
+/* Total price */
+
+.items .total-price{
+    font-size: 23px;
+}
